@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+div .container {
+display: gird;
+grid-template-columns: 240px 348px 342px;
+column-gap: 35px;
+margin: 0 auto;
+width: calc(240px + 348 + 342px);
+background-color: white;
+}
+.container {
+  height: 50%;
+  width: 80%;
+  max-width: 846px;
+  max-height: 475px;
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+}
+.column {
+  flex: 1;
+  padding: 20%;
+  background-color: white;
+}
+.marvin {
+  flex: 1;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50vh;
+  font-family: 'calibri light';
+  font-size: 13px;
+}
+.centered-h1 {
+  margin: 0;
+}
+.image{
+  flex: 2.5;
+  background-color: bisque;
+}
+.content {
+  flex: 2;
+  background-color: white;
+}
+span {
+  position: absolute;
+  top: 51%;
+  color: darkgray;
+  font-family: Minion Variable Concept Regular;
+}
+h6 {
+  position: absolute;
+  top: 71%;
+  color: darkgray;
+}
+p {
+  position: absolute;
+  top: 48%;
+  font-size: 19px;
+  font-family: Centuar Regular;
+}
+h2 {
+  position: absolute;
+  bottom: 50%;
+  color: darkgray;
+  font-size: 2rem;
+  font-family: Source Code Pro ExtraLightIt;
+}
